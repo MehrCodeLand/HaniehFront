@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Admin/upload.css">
+    <title>Uplaod Page</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left-sec">
+            <a class="a-burger" href="#">
+                <img src="/icon/hamburger-menu.svg" class="burger-logo">
+            </a>
+            <img src="/icon/youtube-logo.svg" class="hanieh-logo">
+        </div>
+        <div class="middle-sec">
+            <div class="title-web">HANIEH</div>
+        </div>
+        <div class="right-sec"></div>
+    </div>
+
+    <div class="main-div">
+        <form class="upload-form" runat="server">
+            <label for="title">Paint's Title:</label>
+            <input class="paint-title" id="title" type="text" placeholder="Paint Title">
+            
+            <label for="description">Description :</label>
+            <input type="text" id="description" class="paint-description" placeholder="Description ...">
+            
+            <input class="paint-upload" type="file">
+
+            <button class="paint-upload-btn" type="submit">Upload</button>
+        </form>
+
+        <div class="side-btn">
+            <a href="#">
+                <button class="cancel-btn">Cancel</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
