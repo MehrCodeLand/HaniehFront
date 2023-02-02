@@ -5,14 +5,17 @@ body {
 }
 
 .home-header {
-    background-color: #323232 ;
+    background-color: #DDD0C8 ;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 10px ;
 }
+.header-secend {
+    height: 100px ;
+}
 .left-section {
-    flex: 5;
+    flex: 1;
 
     display: flex;
     flex-direction: row;
@@ -37,7 +40,7 @@ body {
     font-family: monospace;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     padding-left: 0.5rem ;
-    color: #DDD0C8;
+    color: #323232;
 }
 .header-logo {
     flex: 1;
@@ -51,12 +54,18 @@ body {
     max-width: 10rem ;
     object-fit: cover;
     object-position: center;
-    border: solid 0.18rem #DDD0C8;
+    border: solid 0.2rem #323232;
     border-radius: 0.5rem ;
 }
 .header-btns-new {
     flex: 1;
 }    
+
+
+
+
+
+
 
 
 
