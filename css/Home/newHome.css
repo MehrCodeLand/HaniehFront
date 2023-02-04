@@ -1,11 +1,5 @@
-@media only screen and (max-device-width: 500px ) and (max-device-height: 800px ){
-    body {
-        margin-top: 0px  ;
-    }
-    
-    .left-section {
-        background-color: red ;
-    }
+@media only screen and (max-device-width: 500px ){
+
 }
 
 body {
@@ -188,8 +182,6 @@ body {
     display: flex;
     flex-direction: row;
     font-family: monospace;
-}
-.some-info {
 }
 .mehrshad-info {
     flex: 1 ;

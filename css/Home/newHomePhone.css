@@ -1,0 +1,123 @@
+@media only screen and (max-device-width: 500px ){
+    img {
+        height: 20px  ;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        font-family: monospace;
+        margin: 0px ;
+    }
+
+    .home-header {
+        display: flex;
+        flex-direction: column;
+        background-color: #ddd0c8 ;
+
+    }
+    .left-section {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        padding: 0.5rem ;
+    }
+    .header-title {
+        flex: 4 ;
+        padding-left: 0.3rem ;
+        display: flex;
+        align-items: center;
+    }
+    .title {
+        font-size: 1rem ;
+    }
+    .header-logo {
+        flex : 1 ;
+        display: flex ;
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+        height: 100%   ;
+        width: 100% ;
+        object-fit: cover;
+        object-position: center;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 0.3rem ;
+    }
+    .header-secend {
+        padding: 0.5rem ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .home-main {
+        background-color: #323232;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.8rem ;
+        padding-top: 1.3rem;
+    }
+    .paint-obj {
+        background-color: #ddd0c8;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.7rem ;
+        border-radius: 0.5rem ;
+
+    }
+    .paint-info {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem ;
+    }
+    .paint-title {
+        font-size: 1rem ;
+        padding-top: 0px ;
+        padding-bottom: 0px ;
+        margin-top: 0px ;
+        margin-bottom: 0px ;
+    }
+    .paint-img {
+        border-radius: 0.5rem ;
+    }
+    .paint {
+        height: 100% ;
+        width: 100%  ;
+        object-fit: cover;
+        object-position: center;
+        border-top-left-radius: 0.5rem ;
+        border-top-right-radius: 0.5rem ;
+    }
+    .paint-show {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 0.5rem ;
+        padding-top: 0.5rem ;
+        border-bottom-right-radius: 0.5rem ;
+        border-bottom-left-radius: 0.5rem  ;
+    }
+
+    .show-btn {
+        padding: 4px 20px ;
+        border: none ;
+        border-radius: 0.2rem ;
+        font-family: monospace ;
+        color: #ddd0c8;
+        background-color: #323232;
+    }
+
+    .home-endbar {
+        background-color: #ddd0c8;
+        text-align: center;
+    }
+}
