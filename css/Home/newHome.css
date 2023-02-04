@@ -1,3 +1,13 @@
+@media only screen and (max-device-width: 500px ) and (max-device-height: 800px ){
+    body {
+        margin-top: 0px  ;
+    }
+    
+    .left-section {
+        background-color: red ;
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -80,15 +90,6 @@ body {
     font-family: monospace;
     font-size: 1.4rem;
 }
-
-
-
-
-
-
-
-
-
 
 
 .home-main {
