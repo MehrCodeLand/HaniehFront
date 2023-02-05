@@ -7,6 +7,7 @@
     }
 
     .header {
+        flex: 1;
         display: flex ;
         flex-direction: row;
         background-color: #E7473C;
@@ -39,7 +40,54 @@
         object-position: center;
     }
 
-
+    .main {
+        display: flex;
+        flex-direction: column;
+        background-color: white ;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem ;
+    }
+    .table-data {
+        flex: 1;
+        background-color: red ;
+        display: flex;
+        flex-direction: row ;
+        padding: 1rem ;
+    }
+    .paint-table {
+        background-color: #E7473C;
+        border-radius: 0.3rem ;
+    }
+    .paint-img {
+        height: 3rem  ;
+        width: 3rem ;
+        border-radius: 0.4rem ;
+    }
+    .all-btn {
+        background-color: #E7473C;
+        padding: 4rem ;
+        border-radius: 0.7rem ;
+        text-align: center;
+        display: flex ;
+        flex-direction: column;
+    }
+    button {
+        padding: 0.3rem 1rem ;
+        margin-top: 0.9rem ;
+        border: none;
+        font-size: 0.8rem;
+        font-family: monospace;
+        border-radius: 0.2rem ;
+        font-weight: bold;
+        transition: opacity 0.15s ;
+    }
+    button:hover {
+        opacity: 85% ;
+    }
+    button:active {
+        opacity: 95% ;
+    }
     
 }
 
