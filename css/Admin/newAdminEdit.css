@@ -39,8 +39,72 @@
         object-position: center;
     }
 
+    .main {
+        display: flex ;
+        flex-direction: column;
+    }
+    .form-data {
+        margin-top: 3rem ;
+        padding: 0.7rem ;
+        border-radius: 0.2rem ;
+        background-color: #E7473C;
 
-
+        display: flex;
+        flex-direction: column;
+    }
+    .form-edit {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.7rem ;
+    }
+    .title {
+        font-size: 1.1rem ;
+        border: none;
+        border-radius: 0.1rem ;
+    }
+    .description {
+        border: none;
+        border-radius: 0.1rem ;
+        font-weight: bold;
+    }
+    .paint-image {
+        height: 5rem ;
+    }
+    input::file-selector-button {
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 1rem ;
+        margin-right: 0.5rem ;
+        background-color: white;
+        font-weight: bold;
+        color: #323232;
+        padding: 0.25em;
+        border: none;
+        border-radius: 0.2rem;
+    }
+    .edit {
+        padding: 0.3rem 1rem ;
+        border-radius: 0.1rem ;
+        font-size: 0.8rem ;
+        font-family: monospace;
+        border: none;
+        font-weight: bold;
+    }
+    .extra-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2rem ;
+    }
+    .back-btn {
+        padding: 0.5rem 1rem ;
+        border: none;
+        border-radius: 0.1rem ;
+        font-family: monospace;
+        font-weight: bold;
+        color: #E7473C;
+        background-color: #323232;
+    }
 }
 
 @media only screen and (min-device-width: 500px )
@@ -168,4 +232,9 @@
         color: #E7473C;
         border-radius: 0.2rem ;
     }
+}
+
+
+textarea {
+    resize: none;
 }
