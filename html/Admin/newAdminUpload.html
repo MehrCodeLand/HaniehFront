@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Admin/newAdminUpload.css">
+    <title>Upload Paint</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-staf">
+            <div class="logo-content">
+                <img class="logo" src="/img/pTUg_p7B_400x400.jpg">
+            </div>
+            <div class="hanieh-title">
+                HANIEH|Freedome
+            </div>
+            <div class="space-right"></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="form-upload-data">
+            <form runat="server" method="post" enctype="multipart/form-data" class="form-upload">
+                <div class="upload-info">
+                    <input type="text" class="title" placeholder="Title...">
+                </div>
+                <div class="upload-textarea">
+                    <textarea placeholder="Description..." class="description" cols="30" rows="10"></textarea>
+                </div>
+                <div class="upload-paint">
+                    <input type="file" class="image-input">
+                </div>
+                <div class="btns">
+                    <button type="submit" class="upload-btn">Upload</button>
+                </div>
+            </form>
+            <div class="extra-btns">
+                <a>
+                    <button class="cancel-btn">Cancel</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
