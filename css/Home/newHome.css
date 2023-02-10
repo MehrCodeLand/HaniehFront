@@ -173,6 +173,23 @@ body {
     background-color: #ddd0c8;
     
 }
+.header-admin {
+    flex: 1;
+    display: flex;
+    flex-direction: row ;
+    height: unset;
+    justify-content: center;
+    align-items: center;
+}
+.admin-btn {
+    padding: 0.3rem 1rem ;
+    border: none;
+    border-radius: 0.17rem ;
+    background-color: #323232;
+    color: #beada3;
+    font-family: monospace;
+    font-weight: bold;
+}
 .header-title {
     
     flex: 2;
